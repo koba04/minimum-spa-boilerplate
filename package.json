@@ -1,0 +1,39 @@
+{
+  "name": "minimum-js-project",
+  "version": "0.1.0",
+  "description": "A minimum js project ",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production browserify index.js -t babelify | uglifyjs > public/bundle.js",
+    "watch": "watchify -d index.js -t babelify -o public/bundle.js -v",
+    "browser-sync": "browser-sync start --server public --files public/**/*",
+    "test": "karma start",
+    "start": "npm run watch & npm run browser-sync & npm test"
+  },
+  "keywords": [
+    "react.js",
+    "babel",
+    "karma",
+    "browserify"
+  ],
+  "author": "koba04",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^0.13.1"
+  },
+  "devDependencies": {
+    "babelify": "^5.0.4",
+    "browser-sync": "^2.3.1",
+    "browserify": "^9.0.3",
+    "espowerify": "^0.10.0",
+    "karma": "^0.12.31",
+    "karma-browserify": "^4.0.0",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-cli": "0.0.4",
+    "karma-mocha": "^0.1.10",
+    "mocha": "^2.2.1",
+    "power-assert": "^0.10.2",
+    "uglify-js": "^2.4.17",
+    "watchify": "^2.4.0"
+  }
+}
