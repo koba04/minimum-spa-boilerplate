@@ -22,10 +22,6 @@ This is built by some useful libraries.
     * for static server and livereload.
     * http://www.browsersync.io/
 
------------
-
-![gif](http://i.gyazo.com/f906464bfb325437c5c905f80a5b976d.gif)
-
 ## How to use
 
 ### development
@@ -35,6 +31,8 @@ npm start
 ```
 
 start `watchify` and `browser-sync` and `karma`
+
+![gif](http://i.gyazo.com/f906464bfb325437c5c905f80a5b976d.gif)
 
 ### production build
 
