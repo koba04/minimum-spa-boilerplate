@@ -53,5 +53,6 @@ npm run build
 ```
 
 You can generate a bundled file for production environment. (.gitignore)
+
 This is for using in deployment step.
 
