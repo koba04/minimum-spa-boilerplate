@@ -6,9 +6,9 @@
   "scripts": {
     "build": "NODE_ENV=production browserify index.js -t babelify | uglifyjs > public/bundle.js",
     "watch": "watchify -d index.js -t babelify -o public/bundle.js -v",
-    "browser": "browser-sync start --server public --files public/**/*",
+    "server": "browser-sync start --server public --files public/**/*",
     "test": "karma start",
-    "start": "npm run watch & npm run browser & npm test"
+    "start": "npm run watch & npm run server & npm test"
   },
   "keywords": [
     "react.js",
