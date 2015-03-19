@@ -30,6 +30,12 @@ This template includes these features.
 
 ## How to use
 
+### install
+
+```
+npm install
+```
+
 ### development
 
 ```
