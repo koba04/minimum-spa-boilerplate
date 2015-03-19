@@ -1,25 +1,31 @@
 # A minimum single page application template
 
 This is a minimum single page application template.
-This is built by some useful libraries.
+
+This template includes these features.
+
+* Writing code by ES6+.
+* Running unit test on browser
+* Autobuild
+* Livereload
 
 ## library
 
 * React.js
-    * for buiding UI.
+    * For buiding UI.
     * http://facebook.github.io/react/
 * Babel
-    * for using ES6+ features and transpile JSX.
+    * For using ES6+ features and compiling JSX.
     * https://babeljs.io/
 * Browserify + watchify
-    * for transform Babel and power-assert.
-    * watchify is used autobuild and transforming more faster.
+    * Browserify is for transforming by Babel and power-assert.
+    * Watchify is used for auto build and increase transforming more faster.
     * http://browserify.org/
 * Karma
-    * for test runner.
+    * For test runner.
     * http://karma-runner.github.io/
 * BrowserSync
-    * for static server and livereload.
+    * For static server and livereload.
     * http://www.browsersync.io/
 
 ## How to use
@@ -30,7 +36,7 @@ This is built by some useful libraries.
 npm start
 ```
 
-start `watchify` and `browser-sync` and `karma`
+You can start `watchify` and `browser-sync` and `karma`
 
 ![gif](http://i.gyazo.com/f906464bfb325437c5c905f80a5b976d.gif)
 
@@ -40,5 +46,6 @@ start `watchify` and `browser-sync` and `karma`
 npm run build
 ```
 
-generate a production build file.
+You can generate a bundled file for production environment. (.gitignore)
+This is for using in deployment step.
 
