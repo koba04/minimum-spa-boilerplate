@@ -28,6 +28,12 @@ This template includes these features.
     * For static server and livereload.
     * http://www.browsersync.io/
 
+## config
+
+config files are only `package.json` and `karma.conf.js`.
+
+You can write your code immediately.
+
 ## How to use
 
 ### install
